@@ -18,6 +18,13 @@ let package = Package(
                 "dvclient", 
             ]
         ),
+        .library(
+            name: "VoxeetSDKBasic",
+            targets: [
+                "VoxeetSDK", 
+                "WebRTC",
+            ]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.

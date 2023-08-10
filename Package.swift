@@ -14,15 +14,13 @@ let package = Package(
             name: "VoxeetSDK",
             targets: [
                 "VoxeetSDK", 
-                "WebRTC", 
-                "dvclient", 
+                "WebRTC",
             ]
         ),
         .library(
-            name: "VoxeetSDKBasic",
+            name: "DolbyVoiceExtension",
             targets: [
-                "VoxeetSDK", 
-                "WebRTC",
+                "dvclient",
             ]
         ),
     ],
